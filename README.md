@@ -17,7 +17,7 @@ results = pyco2.sys(par1=2300, par2=2100, par1_type=1, par2_type=2, **kgen_const
 # See the PyCO2SYS docs for an explanation of par1, par2 etc.
 ```
 
-The arguments to `calc_Ks_PyCO2SYS` are identical to those for `calc_Ks` described above.
+The arguments to `calc_Ks_PyCO2SYS` are identical to those for `calc_Ks` described in the Kgen documentation.
 
 In the above code, PyCO2SYS will use the equilibrium constants and total salt concentrations calculated by Kgen for all its calculations, instead of evaluating them internally.
 
